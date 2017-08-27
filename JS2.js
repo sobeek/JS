@@ -4,8 +4,9 @@ function matrix_spiral(matrix) {
 
     var i = Math.floor (dim / 2);
     var j = i;
-    var r = i;
-    var l = i;
+    var l = i; //left spiral boundary
+    var r = i; // right spiral boundary
+
 
     for (var n = 0; n < dim * dim; ++n)
     {
