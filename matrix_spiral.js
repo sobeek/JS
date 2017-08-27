@@ -20,15 +20,15 @@ function matrix_spiral(matrix) {
     }
 }
 
-var matrix = [
+var matrix1 = [
     [1,2,3],
     [4,5,6],
     [7,8,9]
 ];
 
-matrix = [[100]];
+matrix2 = [[100]];
 
-matrix = [
+matrix3 = [
     [1, 2, 3, 4, 5],
     [6, 7, 8, 9, 10],
     [11,12,13,14,15],
@@ -36,4 +36,4 @@ matrix = [
     [21,22,23,24,25]
 ];
 
-matrix_spiral(matrix);
+matrix_spiral(matrix1);
